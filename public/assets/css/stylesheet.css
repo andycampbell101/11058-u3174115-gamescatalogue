@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Roboto:);
+
+* { box-sizing: border-box; }
+
+/*Setting the body font across all pages*/
+body {
+	font-family: Roboto;
+}
+
+/*Hide the Game ID when editing an entry*/
+.id {
+	display: none;
+}
+
+/*Styling the wrapper around the page to a fixed width and to be centred*/
+#page-wrapper {
+	width: 1440px;
+	margin: 0 auto;
+}
+
+/*Styling the entire header to make everything centre, specify the colour of normal text, and add borders*/
+header {
+	text-align: center;
+	color: black;
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+}
+
+/*Styling the header text to not appear as a link*/
+header > h1 > a {
+	text-decoration: none;
+	color: black;
+}
+
+/*Changing the background colour of the nav bar*/
+nav {
+	background-color: #87CEFA;
+}
+
+/*Giving the list in the nav bar no decoration and changing the font and font size*/
+nav > ul {
+	list-style: none;
+	font-size: 24px;
+	font-family: Raleway;
+}
+
+/*Aligning the text in the nav bar to be centre and have padding around each item*/
+nav > ul > li {
+	display: inline-block;
+  	text-align: center;
+  	margin: 0 auto;
+  	padding: 20px;
+}
+
+/*Removing underline from links and changing the colour to white*/
+.links {
+	text-decoration: none;
+	color: white;
+}
+
+/*Making the links change colour to blue when hovered over*/
+.links:hover {
+	color: blue;
+}
+
+/*Styling the wrapper around the main content to a fixed width and to be centred*/
+.main-wrapper {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+/*Setting the text to always be centred and add padding to the content */
+main {
+	text-align: center;
+	margin: 0 auto;
+	padding: 50px;
+}
+
+/*Changing the font, font size and padding of the headings*/
+main > h1{
+	font-family: Raleway;
+	font-size: 30px;
+	padding-bottom: 20px;
+}
+
+/*Changing the font, font size and padding of the headings*/
+main > h3{
+	font-family: Raleway;
+	font-size: 24px;
+	padding: 20px 0;
+}
+
+/*Changing the font, font size and padding of the headings*/
+main > h4{
+	font-family: Raleway;
+	font-size: 20px;
+	padding: 20px 0;
+}
+
+/*Adding padding, changing the font size and line height to space out the text*/
+main > p {
+	padding: 10px;
+	font-size: 16px;
+	line-height: 2em;
+}
